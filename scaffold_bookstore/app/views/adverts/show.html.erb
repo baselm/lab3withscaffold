@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @advert.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @advert.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @advert.price %>
+</p>
+
+<p>
+  <strong>Seller:</strong>
+  <%= @advert.seller_id %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @advert.email %>
+</p>
+
+<%= link_to 'Edit', edit_advert_path(@advert) %> |
+<%= link_to 'Back', adverts_path %>
